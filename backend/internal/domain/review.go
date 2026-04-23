@@ -17,8 +17,8 @@ type Review struct {
 
 // Limits enforced in the service layer
 const (
-	MaxNameLen    = 100
-	MaxBodyLen    = 2000
-	MaxTagLen     = 150 // individual pro or con
+	MaxNameLen    = 25
+	MaxBodyLen    = 500
+	MaxTagLen     = 25 // individual pro or con
 	MaxTags       = 6
 )

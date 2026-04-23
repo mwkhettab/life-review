@@ -644,9 +644,9 @@ import {
 import { getRandomQuote } from "../utils/quotes";
 
 // ── Limits (must match backend domain/review.go) ──────────────────────────────
-const NAME_MAX = 100;
-const BODY_MAX = 2000;
-const TAG_MAX = 150;
+const NAME_MAX = 25;
+const BODY_MAX = 500;
+const TAG_MAX = 25;
 const TAG_LIMIT = 6;
 
 // ── Stats from API ────────────────────────────────────────────────────────────
