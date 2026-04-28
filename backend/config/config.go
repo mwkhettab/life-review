@@ -20,7 +20,7 @@ func Load() *Config {
 		log.Println("No .env file found, reading from environment")
 	}
 
-	origins := getEnv("ALLOWED_ORIGINS", "http://localhost:3000")
+	origins := getEnv("ALLOWED_ORIGINS", "http://localhost:5173,https://reviewyourlife.xyz")
 	allowedOrigins := splitTrimmed(origins)
 
 	return &Config{
